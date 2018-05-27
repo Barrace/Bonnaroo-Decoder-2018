@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.barrace.decoderbonnaroo2018.Decode">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="356dp"
+        android:layout_height="193dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter code here"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="349dp"
+        android:layout_height="218dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Button
+        android:id="@+id/decodeButton"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:text="DECODE!"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+</android.support.constraint.ConstraintLayout>
